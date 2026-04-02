@@ -229,8 +229,8 @@ getProblems( const char *inifile, double *e, double *v, double *r )
 }
 
 static void 
-printUsage( const char *programName ) {
-  fprintf( stderr, "usage: %s [-c config] [-o output] [-h]\n", programName );
+printUsage( const char *program_name ) {
+  fprintf( stderr, "usage: %s [-c config] [-o output] [-h]\n", program_name );
   fprintf( stderr, "options:\n" );
   fprintf( stderr, "  -c <file>   Path to configuration file (default: ./config.ini)\n" );
   fprintf( stderr, "  -o <file>   Path to output file (default: ./output.dat)\n" );
